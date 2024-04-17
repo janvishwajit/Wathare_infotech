@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Plot from 'react-plotly.js';
 
-function App() {
+function Home() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -67,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
